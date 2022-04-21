@@ -1,6 +1,6 @@
 console.log("PROMISES:-promises has ejector function which accepts two values (resolve and reject), if promise fullfilled it reloves if not means its rejected. will resolve call 'then' block reject call 'catch' block");
 console.log(' ');
-const promise = new Promise((resolve, reject) => {       //...CREATING PROMISE AND STORING INTO A VARIABLE
+const promise = new Promise((resolve, reject) => {       //...CREATING PROMISE AND STORING INTO A VARIABLE as a Object
   setTimeout(() => {
     let arr = [1, 2, 3, 4, 5];
     resolve(arr);
